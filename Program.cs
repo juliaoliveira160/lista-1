@@ -1,7 +1,7 @@
-﻿Console.WriteLine("Informe a idade do passageiro:");
+﻿Console.Write("Informe a idade do passageiro: ");
 int idade = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Informe o valor normal da passagem:");
+Console.Write("Informe o valor normal da passagem: ");
 double valorNormal = double.Parse(Console.ReadLine());
 
 double valorPagar;
